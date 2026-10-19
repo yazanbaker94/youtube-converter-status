@@ -5,7 +5,21 @@ Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seiz
 ## Status right now
 
 <!-- status:start -->
-_The first automatic check will fill this table in._
+_Last checked 2026-10-19 07:27 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
+
+| Site | Status right now | Answered (24 h) | Details |
+|---|---|---|---|
+| [CnvMP3](https://audiofetcher.com/alternatives/cnvmp3-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [NoTube](https://audiofetcher.com/alternatives/notube-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [SaveFrom.net](https://audiofetcher.com/alternatives/savefrom-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [YTMP3](https://audiofetcher.com/alternatives/ytmp3-not-working/) | ↪️ redirects | 100.0% | → convertytmp3.org |
+| [Y2Mate](https://audiofetcher.com/alternatives/y2mate-shut-down/) | ❌ not answering | 0.0% | domain no longer exists (DNS) |
+| [YT1s](https://audiofetcher.com/alternatives/yt1s-shut-down/) | ⛔ shutdown notice | 100.0% | HTTP 200 |
+| [Loader.to](https://audiofetcher.com/alternatives/loader-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [MP3Juices](https://audiofetcher.com/alternatives/mp3juices-not-working/) | ↪️ redirects | 100.0% | → freemp3juice.com |
+| [FLVTO](https://audiofetcher.com/alternatives/flvto-not-working/) | 🚫 no longer a converter | 100.0% | HTTP 200 |
+| [2conv](https://audiofetcher.com/alternatives/2conv-not-working/) | 🚫 no longer a converter | 100.0% | HTTP 200 |
+| [OnlineVideoConverter](https://audiofetcher.com/alternatives/onlinevideoconverter-shut-down/) | ↪️ redirects | 100.0% | → google.com |
 <!-- status:end -->
 
 **What the states mean**

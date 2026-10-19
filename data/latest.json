@@ -1,0 +1,139 @@
+{
+ "checkedAt": 1792394879,
+ "from": "GitHub Actions",
+ "targets": {
+  "cnvmp3": {
+   "name": "CnvMP3",
+   "domain": "cnvmp3.com",
+   "state": "up",
+   "code": 200,
+   "ms": 287,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "notube": {
+   "name": "NoTube",
+   "domain": "notube.net",
+   "state": "up",
+   "code": 200,
+   "ms": 201,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "savefrom": {
+   "name": "SaveFrom.net",
+   "domain": "savefrom.net",
+   "state": "up",
+   "code": 200,
+   "ms": 839,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "ytmp3": {
+   "name": "YTMP3",
+   "domain": "ytmp3.cc",
+   "state": "redirected",
+   "code": 200,
+   "ms": 1169,
+   "finalHost": "convertytmp3.org",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "y2mate": {
+   "name": "Y2Mate",
+   "domain": "y2mate.com",
+   "state": "down",
+   "code": 0,
+   "ms": 150,
+   "finalHost": "",
+   "error": "gaierror",
+   "tls": "",
+   "uptime24h": 0.0,
+   "checks24h": 1
+  },
+  "yt1s": {
+   "name": "YT1s",
+   "domain": "yt1s.com",
+   "state": "notice",
+   "code": 200,
+   "ms": 487,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "loader": {
+   "name": "Loader.to",
+   "domain": "loader.to",
+   "state": "up",
+   "code": 200,
+   "ms": 742,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "mp3juices": {
+   "name": "MP3Juices",
+   "domain": "mp3juices.cc",
+   "state": "redirected",
+   "code": 200,
+   "ms": 925,
+   "finalHost": "freemp3juice.com",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "flvto": {
+   "name": "FLVTO",
+   "domain": "flvto.biz",
+   "state": "repurposed",
+   "code": 200,
+   "ms": 198,
+   "finalHost": "",
+   "error": "",
+   "tls": "untrusted",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "2conv": {
+   "name": "2conv",
+   "domain": "2conv.com",
+   "state": "repurposed",
+   "code": 200,
+   "ms": 510,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  },
+  "onlinevideoconverter": {
+   "name": "OnlineVideoConverter",
+   "domain": "onlinevideoconverter.com",
+   "state": "redirected",
+   "code": 200,
+   "ms": 266,
+   "finalHost": "google.com",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 1
+  }
+ },
+ "license": "CC BY 4.0, credit AudioFetcher (https://audiofetcher.com/alternatives/)"
+}
