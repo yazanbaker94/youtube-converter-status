@@ -2,152 +2,152 @@
  "days": {
   "2026-10-19": {
    "2conv": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {},
-    "msSum": 1081,
+    "msSum": 1886,
     "name": "2conv",
     "states": {
-     "repurposed": 2
+     "repurposed": 3
     }
    },
    "cnvmp3": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {},
-    "msSum": 546,
+    "msSum": 844,
     "name": "CnvMP3",
     "states": {
-     "up": 2
+     "up": 3
     }
    },
    "flvto": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {},
-    "msSum": 420,
+    "msSum": 609,
     "name": "FLVTO",
     "states": {
-     "repurposed": 2
+     "repurposed": 3
     }
    },
    "loader": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {},
-    "msSum": 963,
+    "msSum": 1161,
     "name": "Loader.to",
     "states": {
-     "up": 2
+     "up": 3
     }
    },
    "mp3juices": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {
-     "freemp3juice.com": 2
+     "freemp3juice.com": 3
     },
-    "msSum": 2552,
+    "msSum": 3638,
     "name": "MP3Juices",
     "states": {
-     "redirected": 2
+     "redirected": 3
     }
    },
    "notube": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {},
-    "msSum": 511,
+    "msSum": 753,
     "name": "NoTube",
     "states": {
-     "up": 2
+     "up": 3
     }
    },
    "onlinevideoconverter": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {
-     "google.com": 2
+     "google.com": 3
     },
-    "msSum": 524,
+    "msSum": 952,
     "name": "OnlineVideoConverter",
     "states": {
-     "redirected": 2
+     "redirected": 3
     }
    },
    "savefrom": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {},
-    "msSum": 1791,
+    "msSum": 2971,
     "name": "SaveFrom.net",
     "states": {
-     "up": 2
+     "up": 3
     }
    },
    "y2mate": {
     "answered": 0,
-    "checks": 2,
+    "checks": 3,
     "codes": {
-     "gaierror": 2
+     "gaierror": 3
     },
     "finalHosts": {},
-    "msSum": 242,
+    "msSum": 367,
     "name": "Y2Mate",
     "states": {
-     "down": 2
+     "down": 3
     }
    },
    "yt1s": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {},
-    "msSum": 1045,
+    "msSum": 1479,
     "name": "YT1s",
     "states": {
-     "notice": 2
+     "notice": 3
     }
    },
    "ytmp3": {
-    "answered": 2,
-    "checks": 2,
+    "answered": 3,
+    "checks": 3,
     "codes": {
-     "200": 2
+     "200": 3
     },
     "finalHosts": {
-     "convertytmp3.org": 2
+     "convertytmp3.org": 3
     },
-    "msSum": 2300,
+    "msSum": 3135,
     "name": "YTMP3",
     "states": {
-     "redirected": 2
+     "redirected": 3
     }
    }
   }
