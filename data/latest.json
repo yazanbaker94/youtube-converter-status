@@ -1,5 +1,5 @@
 {
- "checkedAt": 1792516142,
+ "checkedAt": 1792532318,
  "from": "GitHub Actions",
  "targets": {
   "cnvmp3": {
@@ -7,132 +7,132 @@
    "domain": "cnvmp3.com",
    "state": "up",
    "code": 200,
-   "ms": 1335,
+   "ms": 368,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "notube": {
    "name": "NoTube",
    "domain": "notube.net",
    "state": "up",
    "code": 200,
-   "ms": 1090,
+   "ms": 308,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "savefrom": {
    "name": "SaveFrom.net",
    "domain": "savefrom.net",
    "state": "up",
    "code": 200,
-   "ms": 1175,
+   "ms": 1424,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "ytmp3": {
    "name": "YTMP3",
    "domain": "ytmp3.cc",
    "state": "redirected",
    "code": 200,
-   "ms": 780,
+   "ms": 1384,
    "finalHost": "convertytmp3.org",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "y2mate": {
    "name": "Y2Mate",
    "domain": "y2mate.com",
    "state": "down",
    "code": 0,
-   "ms": 119,
+   "ms": 146,
    "finalHost": "",
    "error": "gaierror",
    "tls": "",
    "uptime24h": 0.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "yt1s": {
    "name": "YT1s",
    "domain": "yt1s.com",
    "state": "notice",
    "code": 200,
-   "ms": 489,
+   "ms": 254,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "loader": {
    "name": "Loader.to",
    "domain": "loader.to",
    "state": "up",
    "code": 200,
-   "ms": 310,
+   "ms": 133,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "mp3juices": {
    "name": "MP3Juices",
    "domain": "mp3juices.cc",
    "state": "redirected",
    "code": 200,
-   "ms": 786,
+   "ms": 1194,
    "finalHost": "freemp3juice.com",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "flvto": {
    "name": "FLVTO",
    "domain": "flvto.biz",
    "state": "repurposed",
    "code": 200,
-   "ms": 205,
+   "ms": 500,
    "finalHost": "",
    "error": "",
    "tls": "untrusted",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "2conv": {
    "name": "2conv",
    "domain": "2conv.com",
    "state": "repurposed",
    "code": 200,
-   "ms": 464,
+   "ms": 754,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   },
   "onlinevideoconverter": {
    "name": "OnlineVideoConverter",
    "domain": "onlinevideoconverter.com",
    "state": "redirected",
    "code": 200,
-   "ms": 262,
+   "ms": 446,
    "finalHost": "google.com",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 5
   }
  },
  "license": "CC BY 4.0, credit AudioFetcher (https://audiofetcher.com/alternatives/)"
