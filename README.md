@@ -1,6 +1,6 @@
 # Is my YouTube converter down? Open status data for YouTube to MP3 sites
 
-Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seized, or quietly turn into something else. This repository checks **11 popular YouTube to MP3 converter sites** every 3 hours and publishes the results as open data.
+Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seized, or quietly turn into something else. This repository checks **15 popular YouTube to MP3 converter sites** every 3 hours and publishes the results as open data.
 
 ## Status right now
 
@@ -28,6 +28,7 @@ _Last checked 2026-10-21 11:51 UTC from GitHub Actions. Each name links to a pag
 - **redirects**: the site now sends visitors to a different domain, shown under Details.
 - **shutdown notice**: the page shows a seizure or shutdown notice.
 - **no longer a converter**: the domain answers but no longer offers a YouTube converter.
+- **no YouTube support**: the site still works for other platforms but no longer accepts YouTube links.
 - **not answering**: timeout, DNS failure or server error.
 
 ## Data

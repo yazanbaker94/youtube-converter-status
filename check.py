@@ -8,7 +8,8 @@ States
   up          the site answered (403/429 or a bot challenge also counts: the server is there, protecting itself)
   redirected  it now sends visitors to a different domain
   notice      it shows a seizure or shutdown notice
-  repurposed  the domain answers but no longer offers a YouTube converter (checked only for sites seen changing)
+  repurposed  the domain answers but no longer offers a YouTube converter (checked only for sites seen changing);
+              reason "no-youtube" when the site still works for other platforms but dropped YouTube
   down        no answer, a timeout, a DNS failure or a server error (5xx)
 A certificate we can't verify is retried without verification and reported as tls="untrusted" instead of down.
 
@@ -58,6 +59,9 @@ TARGETS = {
     "2conv": ("2conv", "https://2conv.com/", "2conv-not-working"),
     "onlinevideoconverter": ("OnlineVideoConverter", "https://onlinevideoconverter.com/", "onlinevideoconverter-shut-down"),
     "cobalt": ("cobalt", "https://cobalt.tools/", "cobalt-not-working"),
+    "ezmp3": ("EzMP3", "https://ezmp3.cc/", "ezmp3-not-working"),
+    "savetube": ("SaveTube", "https://savetube.me/", "savetube-not-working"),
+    "x2download": ("X2Download", "https://x2download.app/", "x2download-not-working"),
 }
 # Sites that publish which services they accept. If the site answers but YouTube is missing from that list, it is
 # "repurposed" with reason "no-youtube" (cobalt.tools dropped YouTube; its API root lists the supported services).
@@ -66,6 +70,10 @@ SERVICE_LISTS = {
 }
 CONVERTER_WORDS = re.compile(r"\bmp3\b|youtube (?:to|video|downloader|converter)|video downloader", re.I)
 EXPECT_CONVERTER = {"flvto", "2conv"}
+# Sites that kept their domain but dropped YouTube (X2Download now serves Instagram/Facebook downloads and says so).
+# If the page announces it, or no longer mentions YouTube at all, the site is "repurposed" with reason "no-youtube".
+EXPECT_YOUTUBE = {"x2download", "savetube"}
+DROPPED_YOUTUBE = re.compile(r"no longer supports?\b[^.<]{0,80}\byoutube", re.I)
 NOTICE = re.compile(r"\b(?:ifpi|seized|has been shut ?down|shut down permanently|domain (?:has been|was) seized)\b", re.I)
 CHALLENGE = re.compile(r"just a moment|cf-chl|challenge-platform|attention required|ddos-guard", re.I)
 LABELS = {"up": "✅ answering", "redirected": "↪️ redirects", "notice": "⛔ shutdown notice",
@@ -101,7 +109,7 @@ def fetch(url: str, context: ssl.SSLContext) -> tuple[int, str, str, str]:
     return code, final, body, error
 
 
-def check(url: str, expect_converter: bool = False) -> dict:
+def check(url: str, expect_converter: bool = False, expect_youtube: bool = False) -> dict:
     started = time.monotonic()
     code, final, body, error = fetch(url, ssl.create_default_context())
     tls = ""
@@ -114,6 +122,7 @@ def check(url: str, expect_converter: bool = False) -> dict:
     ms = round((time.monotonic() - started) * 1000)
     final_host = site(urlsplit(final).hostname or "")
     redirected = bool(final_host) and base_domain(final_host) != base_domain(urlsplit(url).hostname or "")
+    reason = ""
     if error or (code >= 500 and not CHALLENGE.search(body)):
         state = "down"
     elif NOTICE.search(body):
@@ -122,10 +131,16 @@ def check(url: str, expect_converter: bool = False) -> dict:
         state = "redirected"
     elif expect_converter and code < 400 and not CHALLENGE.search(body) and not CONVERTER_WORDS.search(body):
         state = "repurposed"
+    elif (expect_youtube and code < 400 and not CHALLENGE.search(body)
+          and (DROPPED_YOUTUBE.search(body) or not re.search(r"youtube", body, re.I))):
+        state, reason = "repurposed", "no-youtube"
     else:
         state = "up"
-    return {"state": state, "code": code, "ms": ms, "finalHost": final_host if redirected else "", "error": error[:60],
-            "tls": tls}
+    result = {"state": state, "code": code, "ms": ms, "finalHost": final_host if redirected else "", "error": error[:60],
+              "tls": tls}
+    if reason:
+        result["reason"] = reason
+    return result
 
 
 def youtube_supported(url: str) -> bool | None:
@@ -218,7 +233,7 @@ def main() -> None:
     history = load(STATE, {})
     daily = load(DAILY, {})
     with ThreadPoolExecutor(max_workers=6) as pool:
-        results = dict(zip(TARGETS, pool.map(lambda key: check(TARGETS[key][1], key in EXPECT_CONVERTER), TARGETS)))
+        results = dict(zip(TARGETS, pool.map(lambda key: check(TARGETS[key][1], key in EXPECT_CONVERTER, key in EXPECT_YOUTUBE), TARGETS)))
     apply_service_lists(results)
     targets = {}
     for key, (name, url, _slug) in TARGETS.items():
