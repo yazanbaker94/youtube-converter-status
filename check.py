@@ -57,6 +57,12 @@ TARGETS = {
     "flvto": ("FLVTO", "https://flvto.biz/", "flvto-not-working"),
     "2conv": ("2conv", "https://2conv.com/", "2conv-not-working"),
     "onlinevideoconverter": ("OnlineVideoConverter", "https://onlinevideoconverter.com/", "onlinevideoconverter-shut-down"),
+    "cobalt": ("cobalt", "https://cobalt.tools/", "cobalt-not-working"),
+}
+# Sites that publish which services they accept. If the site answers but YouTube is missing from that list, it is
+# "repurposed" with reason "no-youtube" (cobalt.tools dropped YouTube; its API root lists the supported services).
+SERVICE_LISTS = {
+    "cobalt": "https://api.cobalt.tools/",
 }
 CONVERTER_WORDS = re.compile(r"\bmp3\b|youtube (?:to|video|downloader|converter)|video downloader", re.I)
 EXPECT_CONVERTER = {"flvto", "2conv"}
@@ -122,6 +128,32 @@ def check(url: str, expect_converter: bool = False) -> dict:
             "tls": tls}
 
 
+def youtube_supported(url: str) -> bool | None:
+    """True/False from a published services list (cobalt's API root: {"cobalt": {"services": [...]}}), None if unknown."""
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(request, timeout=TIMEOUT, context=ssl.create_default_context()) as response:
+            data = json.loads(response.read(65536).decode("utf-8", "replace"))
+    except (urllib.error.URLError, socket.timeout, TimeoutError, ssl.SSLError, ConnectionError, OSError, ValueError):
+        return None
+    services = (data.get("cobalt") or {}).get("services") if isinstance(data, dict) else None
+    if not isinstance(services, list):
+        return None
+    return any(str(name).lower() == "youtube" for name in services)
+
+
+def apply_service_lists(results: dict) -> None:
+    for key, url in SERVICE_LISTS.items():
+        result = results.get(key)
+        if not result or result["state"] != "up":
+            continue
+        supported = youtube_supported(url)
+        result["youtube"] = supported
+        if supported is False:
+            result["state"] = "repurposed"
+            result["reason"] = "no-youtube"
+
+
 def load(path: Path, default):
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -162,7 +194,8 @@ def readme_table(payload: dict) -> str:
                   "ConnectionRefusedError": "connection refused", "ConnectionResetError": "connection reset"}
         detail = f"→ {t['finalHost']}" if t["finalHost"] else (f"HTTP {t['code']}" if t["code"] else errors.get(t["error"], t["error"]))
         page = f"https://audiofetcher.com/alternatives/{TARGETS[key][2]}/"
-        rows.append(f"| [{t['name']}]({page}) | {LABELS.get(t['state'], t['state'])} | {t['uptime24h']}% | {detail} |")
+        label = "🚫 no YouTube support" if t.get("reason") == "no-youtube" else LABELS.get(t["state"], t["state"])
+        rows.append(f"| [{t['name']}]({page}) | {label} | {t['uptime24h']}% | {detail} |")
     return (f"_Last checked {checked} from {VANTAGE}. Each name links to a page explaining what that site's errors "
             f"mean and what happened to it. Live every 10 minutes: "
             f"[audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._\n\n" + "\n".join(rows))
@@ -186,6 +219,7 @@ def main() -> None:
     daily = load(DAILY, {})
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = dict(zip(TARGETS, pool.map(lambda key: check(TARGETS[key][1], key in EXPECT_CONVERTER), TARGETS)))
+    apply_service_lists(results)
     targets = {}
     for key, (name, url, _slug) in TARGETS.items():
         result = results[key]
