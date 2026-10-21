@@ -301,6 +301,157 @@
      "redirected": 4
     }
    }
+  },
+  "2026-10-21": {
+   "2conv": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {},
+    "msSum": 616,
+    "name": "2conv",
+    "states": {
+     "repurposed": 1
+    }
+   },
+   "cnvmp3": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {},
+    "msSum": 489,
+    "name": "CnvMP3",
+    "states": {
+     "up": 1
+    }
+   },
+   "flvto": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {},
+    "msSum": 235,
+    "name": "FLVTO",
+    "states": {
+     "repurposed": 1
+    }
+   },
+   "loader": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {},
+    "msSum": 207,
+    "name": "Loader.to",
+    "states": {
+     "up": 1
+    }
+   },
+   "mp3juices": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {
+     "freemp3juice.com": 1
+    },
+    "msSum": 1090,
+    "name": "MP3Juices",
+    "states": {
+     "redirected": 1
+    }
+   },
+   "notube": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {},
+    "msSum": 334,
+    "name": "NoTube",
+    "states": {
+     "up": 1
+    }
+   },
+   "onlinevideoconverter": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {
+     "google.com": 1
+    },
+    "msSum": 415,
+    "name": "OnlineVideoConverter",
+    "states": {
+     "redirected": 1
+    }
+   },
+   "savefrom": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {},
+    "msSum": 1148,
+    "name": "SaveFrom.net",
+    "states": {
+     "up": 1
+    }
+   },
+   "y2mate": {
+    "answered": 0,
+    "checks": 1,
+    "codes": {
+     "gaierror": 1
+    },
+    "finalHosts": {},
+    "msSum": 112,
+    "name": "Y2Mate",
+    "states": {
+     "down": 1
+    }
+   },
+   "yt1s": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {},
+    "msSum": 402,
+    "name": "YT1s",
+    "states": {
+     "notice": 1
+    }
+   },
+   "ytmp3": {
+    "answered": 1,
+    "checks": 1,
+    "codes": {
+     "200": 1
+    },
+    "finalHosts": {
+     "convertytmp3.org": 1
+    },
+    "msSum": 1012,
+    "name": "YTMP3",
+    "states": {
+     "redirected": 1
+    }
+   }
   }
  },
  "since": "2026-10-19"
