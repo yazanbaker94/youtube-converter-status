@@ -5,7 +5,7 @@ Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seiz
 ## Status right now
 
 <!-- status:start -->
-_Last checked 2026-10-23 11:40 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
+_Last checked 2026-10-23 17:09 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
 
 | Site | Status right now | Answered (24 h) | Details |
 |---|---|---|---|
@@ -20,7 +20,7 @@ _Last checked 2026-10-23 11:40 UTC from GitHub Actions. Each name links to a pag
 | [FLVTO](https://audiofetcher.com/alternatives/flvto-not-working/) | 🚫 no longer a converter | 100.0% | HTTP 200 |
 | [2conv](https://audiofetcher.com/alternatives/2conv-not-working/) | 🚫 no longer a converter | 100.0% | HTTP 200 |
 | [OnlineVideoConverter](https://audiofetcher.com/alternatives/onlinevideoconverter-shut-down/) | ↪️ redirects | 100.0% | → google.com |
-| [cobalt](https://audiofetcher.com/alternatives/cobalt-not-working/) | 🚫 no YouTube support | 100.0% | HTTP 200 |
+| [cobalt](https://audiofetcher.com/alternatives/cobalt-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 | [EzMP3](https://audiofetcher.com/alternatives/ezmp3-not-working/) | ❌ not answering | 0.0% | domain no longer exists (DNS) |
 | [SaveTube](https://audiofetcher.com/alternatives/savetube-not-working/) | ❌ not answering | 0.0% | domain no longer exists (DNS) |
 | [X2Download](https://audiofetcher.com/alternatives/x2download-not-working/) | 🚫 no YouTube support | 100.0% | HTTP 200 |
