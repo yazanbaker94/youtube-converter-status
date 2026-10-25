@@ -5,7 +5,7 @@ Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seiz
 ## Status right now
 
 <!-- status:start -->
-_Last checked 2026-10-24 23:16 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
+_Last checked 2026-10-25 04:43 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
 
 | Site | Status right now | Answered (24 h) | Details |
 |---|---|---|---|
