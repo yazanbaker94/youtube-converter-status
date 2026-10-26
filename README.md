@@ -5,7 +5,7 @@ Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seiz
 ## Status right now
 
 <!-- status:start -->
-_Last checked 2026-10-26 13:05 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
+_Last checked 2026-10-26 18:45 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
 
 | Site | Status right now | Answered (24 h) | Details |
 |---|---|---|---|
@@ -24,6 +24,14 @@ _Last checked 2026-10-26 13:05 UTC from GitHub Actions. Each name links to a pag
 | [EzMP3](https://audiofetcher.com/alternatives/ezmp3-not-working/) | ❌ not answering | 0.0% | domain no longer exists (DNS) |
 | [SaveTube](https://audiofetcher.com/alternatives/savetube-not-working/) | ❌ not answering | 0.0% | domain no longer exists (DNS) |
 | [X2Download](https://audiofetcher.com/alternatives/x2download-not-working/) | 🚫 no YouTube support | 100.0% | HTTP 200 |
+| [SnapTik](https://audiofetcher.com/alternatives/snaptik-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [SSSTik](https://audiofetcher.com/alternatives/ssstik-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [SaveTik](https://audiofetcher.com/alternatives/savetik-not-working/) | ✅ answering | 100.0% | HTTP 403 |
+| [MusicallyDown](https://audiofetcher.com/alternatives/musicaldown-not-working/) | ❌ not answering | 0.0% | timed out |
+| [TikTokio](https://audiofetcher.com/alternatives/tiktokio-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [KlickAud](https://audiofetcher.com/alternatives/klickaud-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [SoundCloudMP3.org](https://audiofetcher.com/alternatives/soundcloudmp3-not-working/) | ✅ answering | 100.0% | HTTP 200 |
+| [Scloud Downloader](https://audiofetcher.com/alternatives/sclouddownloader-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 <!-- status:end -->
 
 **What the states mean**
