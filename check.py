@@ -62,6 +62,15 @@ TARGETS = {
     "ezmp3": ("EzMP3", "https://ezmp3.cc/", "ezmp3-not-working"),
     "savetube": ("SaveTube", "https://savetube.me/", "savetube-not-working"),
     "x2download": ("X2Download", "https://x2download.app/", "x2download-not-working"),
+    # TikTok and SoundCloud downloaders (added 2026-10-26).
+    "snaptik": ("SnapTik", "https://snaptik.app/", "snaptik-not-working"),
+    "ssstik": ("SSSTik", "https://ssstik.io/", "ssstik-not-working"),
+    "savetik": ("SaveTik", "https://savetik.co/", "savetik-not-working"),
+    "musicaldown": ("MusicallyDown", "https://musicaldown.com/", "musicaldown-not-working"),
+    "tiktokio": ("TikTokio", "https://tiktokio.com/", "tiktokio-not-working"),
+    "klickaud": ("KlickAud", "https://klickaud.org/", "klickaud-not-working"),
+    "soundcloudmp3": ("SoundCloudMP3.org", "https://soundcloudmp3.org/", "soundcloudmp3-not-working"),
+    "sclouddownloader": ("Scloud Downloader", "https://sclouddownloader.net/", "sclouddownloader-not-working"),
 }
 # Sites that publish which services they accept. If the site answers but YouTube is missing from that list, it is
 # "repurposed" with reason "no-youtube" (cobalt.tools dropped YouTube; its API root lists the supported services).

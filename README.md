@@ -1,6 +1,6 @@
 # Is my YouTube converter down? Open status data for YouTube to MP3 sites
 
-Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seized, or quietly turn into something else. This repository checks **15 popular YouTube to MP3 converter sites** every 3 hours and publishes the results as open data.
+Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seized, or quietly turn into something else. This repository checks **15 popular YouTube to MP3 converter sites** and **8 TikTok and SoundCloud downloaders** (SnapTik, SSSTik, SaveTik, MusicallyDown, TikTokio, KlickAud, SoundCloudMP3.org, Scloud Downloader) every 3 hours and publishes the results as open data.
 
 ## Status right now
 
