@@ -5,7 +5,7 @@ Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seiz
 ## Status right now
 
 <!-- status:start -->
-_Last checked 2026-10-27 00:26 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
+_Last checked 2026-10-27 09:01 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
 
 | Site | Status right now | Answered (24 h) | Details |
 |---|---|---|---|
@@ -27,7 +27,7 @@ _Last checked 2026-10-27 00:26 UTC from GitHub Actions. Each name links to a pag
 | [SnapTik](https://audiofetcher.com/alternatives/snaptik-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 | [SSSTik](https://audiofetcher.com/alternatives/ssstik-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 | [SaveTik](https://audiofetcher.com/alternatives/savetik-not-working/) | ✅ answering | 100.0% | HTTP 403 |
-| [MusicallyDown](https://audiofetcher.com/alternatives/musicaldown-not-working/) | ✅ answering | 66.7% | HTTP 200 |
+| [MusicallyDown](https://audiofetcher.com/alternatives/musicaldown-not-working/) | ✅ answering | 75.0% | HTTP 200 |
 | [TikTokio](https://audiofetcher.com/alternatives/tiktokio-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 | [KlickAud](https://audiofetcher.com/alternatives/klickaud-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 | [SoundCloudMP3.org](https://audiofetcher.com/alternatives/soundcloudmp3-not-working/) | ✅ answering | 100.0% | HTTP 200 |
