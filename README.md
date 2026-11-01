@@ -51,7 +51,7 @@ _Last checked 2026-11-01 06:07 UTC from GitHub Actions. Each name links to a pag
 
 A faster live feed (every 10 minutes, from a server in Canada) is at `https://audiofetcher.com/status/converters.json`, and the explanation pages are at **[audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)**.
 
-From November 2026, a monthly report at audiofetcher.com/reports/ sums up which converters worked, moved or disappeared that month.
+**Monthly reports:** [audiofetcher.com/reports](https://audiofetcher.com/reports/) sums up which converters worked, moved or disappeared each month. Latest: [State of YouTube Converters, October 2026](https://audiofetcher.com/reports/youtube-converters-2026-10/) ([CSV](https://audiofetcher.com/reports/youtube-converters-2026-10/data.csv)).
 
 ## Run it yourself
 
