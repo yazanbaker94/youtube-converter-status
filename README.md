@@ -5,7 +5,7 @@ Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seiz
 ## Status right now
 
 <!-- status:start -->
-_Last checked 2026-11-02 00:45 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
+_Last checked 2026-11-02 11:10 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
 
 | Site | Status right now | Answered (24 h) | Details |
 |---|---|---|---|
@@ -17,7 +17,7 @@ _Last checked 2026-11-02 00:45 UTC from GitHub Actions. Each name links to a pag
 | [YT1s](https://audiofetcher.com/alternatives/yt1s-shut-down/) | ⛔ shutdown notice | 100.0% | HTTP 200 |
 | [Loader.to](https://audiofetcher.com/alternatives/loader-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 | [MP3Juices](https://audiofetcher.com/alternatives/mp3juices-not-working/) | ↪️ redirects | 100.0% | → mp3juices.co |
-| [FLVTO](https://audiofetcher.com/alternatives/flvto-not-working/) | 🚫 no longer a converter | 100.0% | HTTP 200 |
+| [FLVTO](https://audiofetcher.com/alternatives/flvto-not-working/) | ❌ not answering | 75.0% | timed out |
 | [2conv](https://audiofetcher.com/alternatives/2conv-not-working/) | 🚫 no longer a converter | 100.0% | HTTP 200 |
 | [OnlineVideoConverter](https://audiofetcher.com/alternatives/onlinevideoconverter-shut-down/) | ↪️ redirects | 100.0% | → google.com |
 | [cobalt](https://audiofetcher.com/alternatives/cobalt-not-working/) | 🚫 no YouTube support | 100.0% | HTTP 200 |
