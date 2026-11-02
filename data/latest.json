@@ -1,5 +1,5 @@
 {
- "checkedAt": 1793617852,
+ "checkedAt": 1793655827,
  "from": "GitHub Actions",
  "targets": {
   "cnvmp3": {
@@ -7,235 +7,271 @@
    "domain": "cnvmp3.com",
    "state": "up",
    "code": 200,
-   "ms": 331,
+   "ms": 234,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "notube": {
    "name": "NoTube",
    "domain": "notube.net",
    "state": "up",
    "code": 200,
-   "ms": 214,
+   "ms": 291,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "savefrom": {
    "name": "SaveFrom.net",
    "domain": "savefrom.net",
    "state": "up",
    "code": 200,
-   "ms": 1353,
+   "ms": 936,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "ytmp3": {
    "name": "YTMP3",
    "domain": "ytmp3.cc",
    "state": "redirected",
    "code": 200,
-   "ms": 954,
+   "ms": 739,
    "finalHost": "yt-to-mp3.net",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "y2mate": {
    "name": "Y2Mate",
    "domain": "y2mate.com",
    "state": "down",
    "code": 0,
-   "ms": 71,
+   "ms": 49,
    "finalHost": "",
    "error": "gaierror",
    "tls": "",
    "uptime24h": 0.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "yt1s": {
    "name": "YT1s",
    "domain": "yt1s.com",
    "state": "notice",
    "code": 200,
-   "ms": 373,
+   "ms": 447,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "loader": {
    "name": "Loader.to",
    "domain": "loader.to",
    "state": "up",
    "code": 200,
-   "ms": 174,
+   "ms": 246,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "mp3juices": {
    "name": "MP3Juices",
    "domain": "mp3juices.cc",
    "state": "redirected",
    "code": 200,
-   "ms": 1239,
+   "ms": 1027,
    "finalHost": "mp3juices.co",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "flvto": {
    "name": "FLVTO",
    "domain": "flvto.biz",
-   "state": "down",
-   "code": 0,
-   "ms": 12069,
+   "state": "repurposed",
+   "code": 200,
+   "ms": 134,
    "finalHost": "",
-   "error": "TimeoutError",
-   "tls": "",
-   "uptime24h": 75.0,
-   "checks24h": 4
+   "error": "",
+   "tls": "untrusted",
+   "uptime24h": 66.7,
+   "checks24h": 3
   },
   "2conv": {
    "name": "2conv",
    "domain": "2conv.com",
    "state": "repurposed",
    "code": 200,
-   "ms": 573,
+   "ms": 555,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "onlinevideoconverter": {
    "name": "OnlineVideoConverter",
    "domain": "onlinevideoconverter.com",
    "state": "redirected",
    "code": 200,
-   "ms": 284,
+   "ms": 338,
    "finalHost": "google.com",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "cobalt": {
    "name": "cobalt",
    "domain": "cobalt.tools",
    "state": "repurposed",
    "code": 200,
-   "ms": 262,
+   "ms": 93,
    "finalHost": "",
    "error": "",
    "tls": "",
    "youtube": false,
    "reason": "no-youtube",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "ezmp3": {
    "name": "EzMP3",
    "domain": "ezmp3.cc",
    "state": "down",
    "code": 0,
-   "ms": 24,
+   "ms": 50,
    "finalHost": "",
    "error": "gaierror",
    "tls": "",
    "uptime24h": 0.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "savetube": {
    "name": "SaveTube",
    "domain": "savetube.me",
    "state": "down",
    "code": 0,
-   "ms": 139,
+   "ms": 13,
    "finalHost": "",
    "error": "gaierror",
    "tls": "",
    "uptime24h": 0.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "x2download": {
    "name": "X2Download",
    "domain": "x2download.app",
    "state": "repurposed",
    "code": 200,
-   "ms": 161,
+   "ms": 205,
    "finalHost": "",
    "error": "",
    "tls": "",
    "reason": "no-youtube",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "snaptik": {
    "name": "SnapTik",
    "domain": "snaptik.app",
    "state": "up",
    "code": 200,
-   "ms": 247,
+   "ms": 182,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "ssstik": {
    "name": "SSSTik",
    "domain": "ssstik.io",
    "state": "up",
    "code": 200,
-   "ms": 110,
+   "ms": 57,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "savetik": {
    "name": "SaveTik",
    "domain": "savetik.co",
    "state": "up",
    "code": 200,
-   "ms": 152,
+   "ms": 133,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "musicaldown": {
    "name": "MusicallyDown",
    "domain": "musicaldown.com",
    "state": "up",
    "code": 200,
-   "ms": 613,
+   "ms": 852,
    "finalHost": "",
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   },
   "tiktokio": {
    "name": "TikTokio",
    "domain": "tiktokio.com",
+   "state": "up",
+   "code": 200,
+   "ms": 106,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 3
+  },
+  "klickaud": {
+   "name": "KlickAud",
+   "domain": "klickaud.org",
+   "state": "up",
+   "code": 200,
+   "ms": 1025,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 3
+  },
+  "soundcloudmp3": {
+   "name": "SoundCloudMP3.org",
+   "domain": "soundcloudmp3.org",
+   "state": "up",
+   "code": 200,
+   "ms": 1066,
+   "finalHost": "",
+   "error": "",
+   "tls": "",
+   "uptime24h": 100.0,
+   "checks24h": 3
+  },
+  "sclouddownloader": {
+   "name": "Scloud Downloader",
+   "domain": "sclouddownloader.net",
    "state": "up",
    "code": 200,
    "ms": 120,
@@ -243,43 +279,7 @@
    "error": "",
    "tls": "",
    "uptime24h": 100.0,
-   "checks24h": 4
-  },
-  "klickaud": {
-   "name": "KlickAud",
-   "domain": "klickaud.org",
-   "state": "up",
-   "code": 200,
-   "ms": 1267,
-   "finalHost": "",
-   "error": "",
-   "tls": "",
-   "uptime24h": 100.0,
-   "checks24h": 4
-  },
-  "soundcloudmp3": {
-   "name": "SoundCloudMP3.org",
-   "domain": "soundcloudmp3.org",
-   "state": "up",
-   "code": 200,
-   "ms": 982,
-   "finalHost": "",
-   "error": "",
-   "tls": "",
-   "uptime24h": 100.0,
-   "checks24h": 4
-  },
-  "sclouddownloader": {
-   "name": "Scloud Downloader",
-   "domain": "sclouddownloader.net",
-   "state": "up",
-   "code": 200,
-   "ms": 247,
-   "finalHost": "",
-   "error": "",
-   "tls": "",
-   "uptime24h": 100.0,
-   "checks24h": 4
+   "checks24h": 3
   }
  },
  "license": "CC BY 4.0, credit AudioFetcher (https://audiofetcher.com/alternatives/)"
