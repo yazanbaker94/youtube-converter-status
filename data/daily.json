@@ -3782,308 +3782,308 @@
   },
   "2026-11-03": {
    "2conv": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 597,
+    "msSum": 1154,
     "name": "2conv",
     "states": {
-     "repurposed": 1
+     "repurposed": 2
     }
    },
    "cnvmp3": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 294,
+    "msSum": 1164,
     "name": "CnvMP3",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "cobalt": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 82,
+    "msSum": 183,
     "name": "cobalt",
     "states": {
-     "repurposed": 1
+     "repurposed": 2
     }
    },
    "ezmp3": {
     "answered": 0,
-    "checks": 1,
+    "checks": 2,
     "codes": {
-     "gaierror": 1
+     "gaierror": 2
     },
     "finalHosts": {},
-    "msSum": 65,
+    "msSum": 105,
     "name": "EzMP3",
     "states": {
-     "down": 1
+     "down": 2
     }
    },
    "flvto": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 371,
+    "msSum": 4979,
     "name": "FLVTO",
     "states": {
-     "repurposed": 1
+     "repurposed": 2
     }
    },
    "klickaud": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 967,
+    "msSum": 2118,
     "name": "KlickAud",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "loader": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 172,
+    "msSum": 918,
     "name": "Loader.to",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "mp3juices": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {
-     "mp3juices.co": 1
+     "mp3juices.co": 2
     },
-    "msSum": 1028,
+    "msSum": 1755,
     "name": "MP3Juices",
     "states": {
-     "redirected": 1
+     "redirected": 2
     }
    },
    "musicaldown": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 614,
+    "msSum": 1500,
     "name": "MusicallyDown",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "notube": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 292,
+    "msSum": 973,
     "name": "NoTube",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "onlinevideoconverter": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {
-     "google.com": 1
+     "google.com": 2
     },
-    "msSum": 386,
+    "msSum": 697,
     "name": "OnlineVideoConverter",
     "states": {
-     "redirected": 1
+     "redirected": 2
     }
    },
    "savefrom": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 1324,
+    "msSum": 3123,
     "name": "SaveFrom.net",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "savetik": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 152,
+    "msSum": 341,
     "name": "SaveTik",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "savetube": {
     "answered": 0,
-    "checks": 1,
+    "checks": 2,
     "codes": {
-     "gaierror": 1
+     "gaierror": 2
     },
     "finalHosts": {},
-    "msSum": 54,
+    "msSum": 72,
     "name": "SaveTube",
     "states": {
-     "down": 1
+     "down": 2
     }
    },
    "sclouddownloader": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 266,
+    "msSum": 406,
     "name": "Scloud Downloader",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "snaptik": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 259,
+    "msSum": 523,
     "name": "SnapTik",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "soundcloudmp3": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 893,
+    "msSum": 1991,
     "name": "SoundCloudMP3.org",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "ssstik": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 257,
+    "msSum": 618,
     "name": "SSSTik",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "tiktokio": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 111,
+    "msSum": 578,
     "name": "TikTokio",
     "states": {
-     "up": 1
+     "up": 2
     }
    },
    "x2download": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 284,
+    "msSum": 3743,
     "name": "X2Download",
     "states": {
-     "repurposed": 1
+     "repurposed": 2
     }
    },
    "y2mate": {
     "answered": 0,
-    "checks": 1,
+    "checks": 2,
     "codes": {
-     "gaierror": 1
+     "gaierror": 2
     },
     "finalHosts": {},
-    "msSum": 58,
+    "msSum": 162,
     "name": "Y2Mate",
     "states": {
-     "down": 1
+     "down": 2
     }
    },
    "yt1s": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {},
-    "msSum": 376,
+    "msSum": 859,
     "name": "YT1s",
     "states": {
-     "notice": 1
+     "notice": 2
     }
    },
    "ytmp3": {
-    "answered": 1,
-    "checks": 1,
+    "answered": 2,
+    "checks": 2,
     "codes": {
-     "200": 1
+     "200": 2
     },
     "finalHosts": {
-     "yt-to-mp3.net": 1
+     "yt-to-mp3.net": 2
     },
-    "msSum": 1403,
+    "msSum": 2110,
     "name": "YTMP3",
     "states": {
-     "redirected": 1
+     "redirected": 2
     }
    }
   }
