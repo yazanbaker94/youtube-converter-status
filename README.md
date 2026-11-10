@@ -5,12 +5,12 @@ Y2Mate, YTMP3, CnvMP3, SaveFrom and the rest come and go: domains move, get seiz
 ## Status right now
 
 <!-- status:start -->
-_Last checked 2026-11-09 19:49 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
+_Last checked 2026-11-10 03:35 UTC from GitHub Actions. Each name links to a page explaining what that site's errors mean and what happened to it. Live every 10 minutes: [audiofetcher.com/alternatives](https://audiofetcher.com/alternatives/)._
 
 | Site | Status right now | Answered (24 h) | Details |
 |---|---|---|---|
 | [CnvMP3](https://audiofetcher.com/alternatives/cnvmp3-not-working/) | ✅ answering | 100.0% | HTTP 200 |
-| [NoTube](https://audiofetcher.com/alternatives/notube-not-working/) | ❌ not answering | 66.7% | timed out |
+| [NoTube](https://audiofetcher.com/alternatives/notube-not-working/) | ✅ answering | 66.7% | HTTP 200 |
 | [SaveFrom.net](https://audiofetcher.com/alternatives/savefrom-not-working/) | ✅ answering | 100.0% | HTTP 200 |
 | [YTMP3](https://audiofetcher.com/alternatives/ytmp3-not-working/) | ↪️ redirects | 100.0% | → yt-to-mp3.net |
 | [Y2Mate](https://audiofetcher.com/alternatives/y2mate-shut-down/) | ❌ not answering | 0.0% | domain no longer exists (DNS) |
